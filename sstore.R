@@ -1249,22 +1249,6 @@ length(agg_sup_final$profit)
 length(agg_sup$profit)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Lets see the rmse without way worse rmses copiers and machines
 #put all predictions into a dataframe except copiers and machines
 sup_final_no_cop_mac<-rbind(sup_acc, sup_app, sup_art, sup_bind, sup_book, sup_cha, sup_env, sup_fas, sup_fur, sup_lab, sup_pap, sup_pho, sup_sto, sup_sup, sup_tab)
